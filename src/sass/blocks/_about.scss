@@ -1,0 +1,38 @@
+.about {
+	padding-top: 120px;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 400px 670px;
+		column-gap: 70px;
+	}
+	&__photo {
+		box-shadow: 1px 5px 15px 3px #000;
+
+		img {
+			width: 100%;
+		}
+	}
+	&__descr {
+		padding-top: 6px;
+		.divider {
+			margin-top: 15px;
+			margin-left: 0;
+		}
+	}
+	&__title {
+		position: relative;
+		padding: 1px 0 0 12px;
+		@include before_circle;
+		color: black;
+		-webkit-text-stroke: 0.3px white;
+	}
+	&__subtitle {
+		color: black;
+		-webkit-text-stroke: 0.3px white;
+	}
+	&__text {
+		margin-top: 20px;
+		font-size: 14px;
+		line-height: 21px;
+	}
+}

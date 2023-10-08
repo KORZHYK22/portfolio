@@ -1,0 +1,17 @@
+.experience {
+	padding-top: 120px;
+	&__title {
+		text-align: center;
+		position: relative;
+
+		@include before_circle;
+
+		&:before {
+			top: -5px;
+			left: 37.2%;
+		}
+	}
+	&__subtitle {
+		text-align: center;
+	}
+}
