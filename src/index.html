@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -454,11 +454,11 @@
 
 						<form action="#" class="contacts__form">
 							<div class="contacts__input">
-								<input name="name" id="name" type="text" />
+								<input required name="name" id="name" type="text" />
 								<label for="name">Your name</label>
 							</div>
 							<div class="contacts__input">
-								<input name="email" id="email" type="email" />
+								<input required="email" id="email" type="email" />
 								<label for="email">Your email</label>
 							</div>
 
@@ -466,8 +466,12 @@
 								<textarea name="text" id="text"></textarea>
 								<label for="text">Your massage</label>
 							</div>
-							<div>
+							<div class="contacts__triggers">
 								<button class="contacts__btn btn">Send message</button>
+								<div class="contacts__policy">
+									<input required type="checkbox" />
+									<span>I agree with <a href="/policy.html">the privacy policy</a></span>
+								</div>
 							</div>
 						</form>
 					</div>
