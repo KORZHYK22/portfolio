@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body {
+}
+
+.cookies__wrapper {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	max-width: 450px;
+	background: #fff;
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.15);
+	border: 1px solid black;
+	text-align: center;
+}
+.cookies__wrapper.hide {
+	opacity: 0;
+	pointer-events: none;
+	transform: scale(0.8);
+	transition: all 0.3s ease;
+}
+::selection {
+	color: #fff;
+	background: $light-color;
+}
+.cookies__wrapper img {
+	max-width: 50px;
+}
+.cookies__content header {
+	font-size: 25px;
+	font-weight: 600;
+}
+.cookies__content {
+	margin-top: 10px;
+}
+.cookies__content p {
+	color: #858585;
+	margin: 5px 0 20px 0;
+}
+.cookies__content .buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cookies__buttons button {
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 5px;
+	background: $main-color;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.cookies__buttons button:hover {
+	background-color: $light-color;
+}
+.cookies__buttons .item {
+	margin: 0 10px;
+}
+.cookies__buttons a {
+	color: $main-color;
+}
