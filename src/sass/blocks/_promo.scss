@@ -14,7 +14,7 @@
 		}
 	}
 	&__title {
-		width: 535px;
+		width: 400px;
 		margin-top: 10px;
 	}
 	&__subtitle {
@@ -29,6 +29,7 @@
 		align-items: center;
 		justify-content: space-between;
 		width: 270px;
+		padding-bottom: 20px;
 	}
 	&__link {
 		color: #000;
@@ -39,6 +40,6 @@
 	}
 	.title {
 		color: white;
-		-webkit-text-stroke: 0.3px black;
+		-webkit-text-stroke: 0.5px black;
 	}
 }

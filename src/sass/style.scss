@@ -19,6 +19,17 @@
 	background-color: $main-color;
 	margin: 25px auto 0 auto;
 }
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1430;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
 
 @import "blocks/promo";
 @import "blocks/title";
@@ -32,3 +43,4 @@
 @import "blocks/contacts";
 @import "blocks/cookies";
 @import "blocks/police";
+@import "blocks/media";

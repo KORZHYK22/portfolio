@@ -17,16 +17,19 @@
 	}
 	&__wrapper {
 		display: grid;
-		grid-template-columns: repeat(2, 550px);
+		grid-template-columns: repeat(2, 545px);
 		margin-top: 60px;
 		row-gap: 30px;
 		column-gap: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	&__item {
 		transition: all 0.3s;
 
 		img {
 			width: 100%;
+			object-fit: cover;
 
 			border: 1px solid black;
 		}

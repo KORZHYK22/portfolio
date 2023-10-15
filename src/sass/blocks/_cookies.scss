@@ -4,8 +4,6 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
-body {
-}
 
 .cookies__wrapper {
 	position: fixed;
@@ -18,6 +16,7 @@ body {
 	box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.15);
 	border: 1px solid black;
 	text-align: center;
+	z-index: 20;
 }
 .cookies__wrapper.hide {
 	opacity: 0;
