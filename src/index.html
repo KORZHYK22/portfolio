@@ -452,13 +452,13 @@
 						</div>
 						<div class="title title_fz14 contacts__text">Or leave a message for me:</div>
 
-						<form action="#" class="contacts__form">
+						<form action="#" id="form" class="contacts__form">
 							<div class="contacts__input">
-								<input required name="name" id="name" type="text" />
+								<input name="name" id="name" type="text" class="_req" />
 								<label for="name">Your name</label>
 							</div>
 							<div class="contacts__input">
-								<input required="email" id="email" type="email" />
+								<input name="email" id="email" type="email" class="_req _email" />
 								<label for="email">Your email</label>
 							</div>
 
@@ -469,7 +469,7 @@
 							<div class="contacts__triggers">
 								<button class="contacts__btn btn">Send message</button>
 								<div class="contacts__policy">
-									<input required type="checkbox" />
+									<input type="checkbox" class="policy-checkbox _req" />
 									<span>I agree with <a href="https://korzhyk22.github.io/privacy-policy/">the privacy policy</a></span>
 								</div>
 							</div>
