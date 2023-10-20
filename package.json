@@ -21,7 +21,8 @@
 		"gulp-htmlmin": "^5.0.1",
 		"gulp-rename": "^2.0.0",
 		"gulp-sass": "^5.1.0",
-		"sass": "^1.63.3"
+		"sass": "^1.63.3",
+		"phpmailer/phpmailer": "^6.8.1"
 	},
 	"browserslist": [
 		"last 2 chrome versions",
