@@ -13,7 +13,7 @@
 
 
 
-	$mail->setFrom('test@gmail.com'); 
+	$mail->setFrom('kuzmenkotv1722@gmail.com'); 
 
 	$mail->addAddress('kuzmenkotv22@gmail.com'); 
 	
