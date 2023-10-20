@@ -80,8 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				body: formData,
 			});
 			if (response.ok) {
-				let result = await response.json();
-				alert(result.message);
+				alert("Message has been sent");
 				form.reset();
 				form.classList.remove("_sending");
 			} else {
